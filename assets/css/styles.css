@@ -6,6 +6,12 @@
   --dark-bg: #003000; 
   --light-ft: #eeeeee;
 }
+main section:nth-child(even) {
+  --light-bg: yellow;
+  --light-ft: #00ee00;
+  --dark-bg: #000030; 
+  --dark-ft: blue;
+}
 /* Remove browser settings  */
 * {
   margin: 0;
@@ -120,11 +126,11 @@ main p {
   text-align: justify;
   margin-bottom: 10px;
 }
-main section p:nth-child(odd) {
+main p:nth-of-type(odd) {
   background-color: var(--dark-bg);
   color: var(--light-ft);
 }
-main section p:nth-child(even) {
+main p:nth-of-type(even) {
   background-color: var(--light-bg);
   color: var(--dark-ft);
 }
