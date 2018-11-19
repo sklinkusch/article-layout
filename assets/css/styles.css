@@ -78,6 +78,14 @@ body {
     .styling {
       float: right;
     }
+    main p:nth-of-type(odd):hover {
+      background-color: var(--light-ft);
+      color: var(--dark-bg);
+    }
+    main p:nth-of-type(even):hover {
+      background-color: var(--dark-ft);
+      color: var(--light-bg);
+    }
   }
   /* Extra wide screens */
 @media screen and (min-width: 1000px) {
