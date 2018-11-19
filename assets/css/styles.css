@@ -1,3 +1,11 @@
+/* Default variables */
+:root {
+  --center-element: 0 auto;
+  --light-bg: antiquewhite;
+  --dark-ft: black;
+  --dark-bg: #003000; 
+  --light-ft: #eeeeee;
+}
 /* Remove browser settings  */
 * {
   margin: 0;
@@ -19,7 +27,7 @@ body {
   }
   header, main, footer {
     width: 85vw;
-    margin: 0 auto;
+    margin: var(--center-element);
   }
   img {
     display: none;
@@ -32,7 +40,7 @@ body {
 @media screen and (min-width: 568px) and (max-width: 768px) {
   header, main, footer {
     width: 85vmin;
-    margin: 0 auto;
+    margin: var(--center-element);
   }
   img {
     width: 85vw;
@@ -50,7 +58,7 @@ body {
   @media screen and (min-width: 769px) and (max-width: 999px) {
     header, main, footer {
       width: 40em;
-      margin: 0 auto;
+      margin: var(--center-element);
     }
     img {
       width: 40vw;
@@ -69,7 +77,7 @@ body {
 @media screen and (min-width: 1000px) {
   header, main, footer {
     width: 50em;
-    margin: 0 auto;
+    margin: var(--center-element);
   }
   img {
     width: 25em;
@@ -111,6 +119,14 @@ main section {
 main p {
   text-align: justify;
   margin-bottom: 10px;
+}
+main section p:nth-child(odd) {
+  background-color: var(--dark-bg);
+  color: var(--light-ft);
+}
+main section p:nth-child(even) {
+  background-color: var(--light-bg);
+  color: var(--dark-ft);
 }
 .date {
   font-style: italic;
