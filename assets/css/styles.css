@@ -9,6 +9,7 @@ body {
   background-color: antiquewhite;
 }
 /* Media Queries */
+/* Phone */
 @media screen and (max-width: 566px) {
   header, main {
     width: 85vw;
@@ -18,7 +19,8 @@ body {
     display: none;
   }
 }
-@media screen and (min-width: 568px) {
+/* Tablet */
+@media screen and (min-width: 568px) and (max-width: 768px) {
   header, main {
     width: 85vmin;
     margin: 0 auto;
@@ -29,6 +31,7 @@ body {
     margin: 10px 0;
   }
 }
+/* Wide screens */
   @media screen and (min-width: 769px) {
     header, main {
       width: 40em;
@@ -71,4 +74,10 @@ main p {
 }
 .date {
   font-style: italic;
+}
+q {
+  font-style: italic;
+}
+q q {
+  font-weight: bold;
 }
