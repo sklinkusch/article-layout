@@ -11,17 +11,20 @@ body {
 /* Media Queries */
 /* Phone */
 @media screen and (max-width: 566px) {
-  header, main {
+  header, main, footer {
     width: 85vw;
     margin: 0 auto;
   }
   img {
     display: none;
   }
+  .source, .styling {
+    text-align: center;
+  }
 }
 /* Tablet */
 @media screen and (min-width: 568px) and (max-width: 768px) {
-  header, main {
+  header, main, footer {
     width: 85vmin;
     margin: 0 auto;
   }
@@ -30,10 +33,16 @@ body {
     display: block;
     margin: 10px 0;
   }
+  .source {
+    float: left;
+  }
+  .styling {
+    float: right;
+  }
 }
 /* Wide screens */
   @media screen and (min-width: 769px) and (max-width: 999px) {
-    header, main {
+    header, main, footer {
       width: 40em;
       margin: 0 auto;
     }
@@ -43,10 +52,16 @@ body {
       float: right;
       margin: 0 0 15px 15px;
     }
+    .source {
+      float: left;
+    }
+    .styling {
+      float: right;
+    }
   }
   /* Extra wide screens */
 @media screen and (min-width: 1000px) {
-  header, main {
+  header, main, footer {
     width: 50em;
     margin: 0 auto;
   }
@@ -55,6 +70,12 @@ body {
     display: block;
     float: right;
     margin: 0 0 2ex 2ch;
+  }
+  .source {
+    float: left;
+  }
+  .styling {
+    float: right;
   }
 }
 /* Further settings */
