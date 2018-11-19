@@ -48,6 +48,7 @@ header {
 }
 .topic {
   color: red;
+  font-weight: bold;
   text-transform: uppercase;
   font-size: 1.3rem;
 }
