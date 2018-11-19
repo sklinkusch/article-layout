@@ -32,7 +32,7 @@ body {
   }
 }
 /* Wide screens */
-  @media screen and (min-width: 769px) {
+  @media screen and (min-width: 769px) and (max-width: 999px) {
     header, main {
       width: 40em;
       margin: 0 auto;
@@ -44,6 +44,19 @@ body {
       margin: 0 0 15px 15px;
     }
   }
+  /* Extra wide screens */
+@media screen and (min-width: 1000px) {
+  header, main {
+    width: 40em;
+    margin: 0 auto;
+  }
+  img {
+    width: 20em;
+    display: block;
+    float: right;
+    margin: 0 0 2ex 2ch;
+  }
+}
 /* Further settings */
 header {
   padding-top: 15px;
