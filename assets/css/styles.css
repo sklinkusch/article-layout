@@ -14,11 +14,19 @@ body {
     width: 85vw;
     margin: 0 auto;
   }
+  img {
+    display: none;
+  }
 }
 @media screen and (min-width: 568px) {
   header, main {
     width: 85vmin;
     margin: 0 auto;
+  }
+  img {
+    width: 85vw;
+    display: block;
+    margin: 10px 0;
   }
 }
   @media screen and (min-width: 769px) {
@@ -26,11 +34,23 @@ body {
       width: 40em;
       margin: 0 auto;
     }
+    img {
+      width: 40vw;
+      display: block;
+      float: right;
+      margin: 0 0 15px 15px;
+    }
   }
 @media screen and (min-width: 900px) {
   header, main {
     width: 45em;
     margin: 0 auto;
+  }
+  img {
+    width: 40vw;
+    display: block;
+    float: right;
+    margin: 0 0 15px 15px;
   }
 }
 /* Further settings */
@@ -62,10 +82,4 @@ main p {
 }
 .date {
   font-style: italic;
-}
-img {
-  width: 40vw;
-  display: block;
-  float: right;
-  margin: 0 0 15px 15px;
 }
