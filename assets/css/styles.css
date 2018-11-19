@@ -13,7 +13,7 @@ header {
 .topic {
   color: red;
   text-transform: uppercase;
-  font-size: 1.3em;
+  font-size: 1.3rem;
 }
 h1 {
   margin: 10px 0 20px 0;
@@ -37,25 +37,25 @@ main p {
 }
 @media screen and (max-width: 566px) {
   header, main {
-    width: 85%;
+    width: 85vw;
     margin: 0 auto;
   }
 }
 @media screen and (min-width: 568px) {
   header, main {
-    width: 500px;
+    width: 30em;
     margin: 0 auto;
   }
 }
   @media screen and (min-width: 769px) {
     header, main {
-      width: 600px;
+      width: 40em;
       margin: 0 auto;
     }
   }
 @media screen and (min-width: 900px) {
   header, main {
-    width: 800px;
+    width: 45em;
     margin: 0 auto;
   }
 }
