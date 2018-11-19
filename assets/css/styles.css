@@ -41,18 +41,6 @@ body {
       margin: 0 0 15px 15px;
     }
   }
-@media screen and (min-width: 900px) {
-  header, main {
-    width: 45em;
-    margin: 0 auto;
-  }
-  img {
-    width: 40vw;
-    display: block;
-    float: right;
-    margin: 0 0 15px 15px;
-  }
-}
 /* Further settings */
 header {
   padding-top: 15px;
