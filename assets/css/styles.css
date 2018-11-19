@@ -47,11 +47,11 @@ body {
   /* Extra wide screens */
 @media screen and (min-width: 1000px) {
   header, main {
-    width: 40em;
+    width: 50em;
     margin: 0 auto;
   }
   img {
-    width: 20em;
+    width: 25em;
     display: block;
     float: right;
     margin: 0 0 2ex 2ch;
