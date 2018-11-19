@@ -62,3 +62,9 @@ main p {
 .date {
   font-style: italic;
 }
+img {
+  width: 40vw;
+  display: block;
+  float: right;
+  margin: 0 0 15px 15px;
+}
