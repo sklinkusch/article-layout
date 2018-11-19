@@ -1,0 +1,61 @@
+/* Remove browser settings  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: antiquewhite;
+}
+header {
+  padding-bottom: 25px;
+}
+.topic {
+  color: red;
+  text-transform: uppercase;
+  font-size: 1.3em;
+}
+h1 {
+  margin: 10px 0 20px 0;
+}
+header p {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+.author::before {
+  content: "by "
+}
+main section {
+  margin-bottom: 2.5em;
+}
+main p {
+  text-align: justify;
+  margin-bottom: 10px;
+}
+.date {
+  font-style: italic;
+}
+@media screen and (max-width: 566px) {
+  header, main {
+    width: 85%;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 568px) {
+  header, main {
+    width: 500px;
+    margin: 0 auto;
+  }
+}
+  @media screen and (min-width: 769px) {
+    header, main {
+      width: 600px;
+      margin: 0 auto;
+    }
+  }
+@media screen and (min-width: 900px) {
+  header, main {
+    width: 800px;
+    margin: 0 auto;
+  }
+}
