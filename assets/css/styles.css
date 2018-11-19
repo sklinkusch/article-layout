@@ -10,7 +10,10 @@ body {
 }
 /* Media Queries */
 /* Phone */
-@media screen and (max-width: 566px) {
+@media screen and (max-width: 567px) {
+  html {
+    font-size: 1.2rem;
+  }
   header, main, footer {
     width: 85vw;
     margin: 0 auto;
