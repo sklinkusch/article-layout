@@ -4,37 +4,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* Whole body */
 body {
   background-color: antiquewhite;
 }
-header {
-  padding-bottom: 25px;
-}
-.topic {
-  color: red;
-  text-transform: uppercase;
-  font-size: 1.3rem;
-}
-h1 {
-  margin: 10px 0 20px 0;
-}
-header p {
-  font-size: 1.2em;
-  margin-bottom: 15px;
-}
-.author::before {
-  content: "by "
-}
-main section {
-  margin-bottom: 2.5em;
-}
-main p {
-  text-align: justify;
-  margin-bottom: 10px;
-}
-.date {
-  font-style: italic;
-}
+/* Media Queries */
 @media screen and (max-width: 566px) {
   header, main {
     width: 85vw;
@@ -43,7 +17,7 @@ main p {
 }
 @media screen and (min-width: 568px) {
   header, main {
-    width: 30em;
+    width: 85vmin;
     margin: 0 auto;
   }
 }
@@ -58,4 +32,33 @@ main p {
     width: 45em;
     margin: 0 auto;
   }
+}
+/* Further settings */
+header {
+  padding-bottom: 25px;
+}
+.topic {
+  color: red;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+}
+h1 {
+  margin: 10px 0 20px 0;
+}
+header p {
+  font-size: 1.2em;
+  margin-bottom: 2vmax;
+}
+.author::before {
+  content: "by "
+}
+main section {
+  margin-bottom: 3.5vh;
+}
+main p {
+  text-align: justify;
+  margin-bottom: 10px;
+}
+.date {
+  font-style: italic;
 }
